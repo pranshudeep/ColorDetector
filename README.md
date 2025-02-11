@@ -28,26 +28,10 @@ You can install OpenCV using pip:
 
 `pip install opencv-python`
 
-## Instalations
-
-* 1. Clone this repository to your local machine:
-`git clone https://github.com/sathvik995/Python-color-detection.git`
-* 2. Navigate to the project directory: 
-`cd color-detection`
-
-## Usage
-* 1. Open a command prompt or terminal.
-* 2.Navigate to the project directory:
-   `cd /path/to/your/color-detection-directory`
-* 3.Run the color detection script with your image file as an argument:
-   `python color_detection.py -i path_to_your_image.jpg`
-
 
 ## How It Works
 The color detection tool uses OpenCV to read the input image and allows you to select colors by double-clicking on the image. The tool then displays the color name and RGB values for the selected colors. It uses a CSV file containing color names and corresponding RGB values to identify the closest matching color for the selected pixel.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
